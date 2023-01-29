@@ -1,0 +1,36 @@
+.root{
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 28px 48px 24px;
+    background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+}
+
+@media (max-width: 1024px) {
+    .root {
+        max-width: 928px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .root {
+        max-width: 768px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .root {
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+}
