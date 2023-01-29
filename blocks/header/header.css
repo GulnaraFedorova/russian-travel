@@ -5,14 +5,14 @@
 
 @media (max-width: 768px) {
     .header {
-        max-width: 720px;
+        width: 720px;
         padding: 28px 24px 0;
     }
 }
 
 @media (max-width: 320px) {
     .header {
-        max-width: 288px;
+        width: 288px;
         padding: 16px 16px 0;
     }
 }
