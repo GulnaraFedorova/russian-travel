@@ -6,7 +6,7 @@
 }
 @media all and (max-width: 768px) {
     .footer{
-        max-width: 100%; 
+        max-width: 100%;
         margin: 0 24px;
     }
 }
@@ -14,7 +14,6 @@
 @media all and (max-width: 507px) {
     .footer{
         width: 100%;
-        margin: 0 auto;
         flex-direction: column;
         gap: 48px;
         margin: 0 16px;
@@ -25,7 +24,6 @@
 @media all and (max-width: 320px) {
     .footer{
         width: 100%;
-        margin: 0 auto;
         flex-direction: column;
         gap: 48px;
         margin: 0 16px;
