@@ -11,8 +11,8 @@
 @media all and (max-width: 507px) {
     .lead__title {
         max-width: 90%;
-        font-size: 62px;
-        line-height: 104%;    
+        font-size: 48px;
+        line-height: 110%;    
     }
 }
 
