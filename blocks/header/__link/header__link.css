@@ -1,4 +1,4 @@
-.header__lang_link {
+.header__link {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -7,12 +7,12 @@
     font-size: 24px;
     line-height: 117%;
 }
-.header__lang_link:active {
+.header__link:active {
     text-decoration: underline;
 }
 
 @media all and (max-width: 507px) {
-    .header__lang_link {
+    .header__link {
         font-size: 18px;
         line-height: 111%;
     }
