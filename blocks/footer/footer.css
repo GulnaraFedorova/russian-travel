@@ -11,7 +11,7 @@
     }
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 507px) {
     .footer{
         width: 100%;
         margin: 0 auto;

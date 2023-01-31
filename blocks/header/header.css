@@ -10,7 +10,7 @@
     }
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 507px) {
     .header {
         width: calc(100%-(16px*2));
         padding: 16px 16px 0;

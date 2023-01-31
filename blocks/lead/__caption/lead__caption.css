@@ -13,7 +13,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 507px) {
     .lead__caption {
         margin: 8px 0 0 16px;
     }

@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 507px) {
     .places__image {
         margin: 0 0 0 -16px;
         }

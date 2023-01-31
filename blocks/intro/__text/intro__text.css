@@ -8,7 +8,7 @@
 }
 
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 507px) {
     .intro__text {
         width: 90%;
     }
