@@ -1,18 +1,18 @@
-.header {
+.header{
     display: flex;
     justify-content: space-between;
 }
 
-@media all and (max-width: 768px) {
-    .header {
-        max-width: calc(100%-48px);
+@media all and (max-width:768px) {
+    .header{
+        max-width:calc(100%-48px);
         padding: 28px 24px 0;
     }
 }
 
-@media all and (max-width: 507px) {
-    .header {
-        width: calc(100%-(16px*2));
+@media all and (max-width:507px) {
+    .header{
+        width:calc(100%-(16px*2));
         padding: 16px 16px 0;
     }
 }
