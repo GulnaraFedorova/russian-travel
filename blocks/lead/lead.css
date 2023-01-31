@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 414px) {
     .lead {
         width: 100%;
     }

@@ -11,7 +11,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 414px) {
     .intro {
         width: 100%;
         margin: 64px 16px;

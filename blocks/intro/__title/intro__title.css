@@ -7,7 +7,7 @@
     line-height: 107%;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 414px) {
     .intro__title {
         width: 90%;
         font-size: 32px;

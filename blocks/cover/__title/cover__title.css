@@ -7,9 +7,18 @@
     text-align: center;
 }
 
+@media all and (max-width: 414px) {
+    .cover__title{
+        width: 90%;
+        font-size: 32px;
+        line-height: 109%;
+    }
+}
+
+
 @media all and (max-width: 320px) {
     .cover__title{
-        width: 288px;
+        width: 90%;
         font-size: 32px;
         line-height: 109%;
     }

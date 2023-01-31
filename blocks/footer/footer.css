@@ -11,6 +11,17 @@
     }
 }
 
+@media all and (max-width: 414px) {
+    .footer{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 48px;
+        margin: 0 16px;
+    }
+}
+
+
 @media all and (max-width: 320px) {
     .footer{
         width: 100%;
