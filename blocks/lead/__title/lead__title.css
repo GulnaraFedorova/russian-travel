@@ -7,9 +7,10 @@
     line-height: 104%;
 }
 
-@media (max-width: 320px) {
+
+@media all and (max-width: 320px) {
     .lead__title {
-        width: 288px;
+        max-width: 90%;
         font-size: 40px;
         line-height: 110%;    
     }
