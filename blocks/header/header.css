@@ -5,6 +5,13 @@
 
 @media all and (max-width: 1024px) {
     .header{
+        width: calc(100% - 96px);
+        padding: 28px 48px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header{
         width: calc(100% - 48px);
         padding: 28px 24px 0;
     }
