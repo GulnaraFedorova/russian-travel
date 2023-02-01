@@ -8,3 +8,10 @@
     font-size: 12px;
     line-height: 150%;
 }
+
+@media all and (max-width: 507px) {
+    .intro__list {
+        width: calc(100% - 32px);
+        padding-left: 16px;
+    }
+}

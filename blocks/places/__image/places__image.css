@@ -4,6 +4,7 @@
 
 @media all and (max-width: 507px) {
     .places__image {
+        width: calc(100% + 32px);
         margin: 0 0 0 -16px;
         }
 }

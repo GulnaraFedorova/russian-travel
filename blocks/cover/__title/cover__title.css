@@ -7,18 +7,17 @@
     text-align: center;
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 714px) {
     .cover__title{
-        width: 90%;
-        font-size: 32px;
+        width: calc(100% - 32px);
+        font-size: 64px;
         line-height: 109%;
     }
 }
 
-
-@media all and (max-width: 320px) {
+@media all and (max-width: 470px) {
     .cover__title{
-        width: 90%;
+        width: calc(100% - 32px);
         font-size: 32px;
         line-height: 109%;
     }

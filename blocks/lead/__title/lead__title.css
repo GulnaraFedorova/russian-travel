@@ -7,10 +7,31 @@
     line-height: 104%;
 }
 
-
-@media all and (max-width: 507px) {
+@media all and (max-width: 768px) {
     .lead__title {
-        max-width: 90%;
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media all and (max-width: 714px) {
+    .lead__title {
+        max-width: calc(100% - 32px);
+        font-size: 78px;
+        line-height: 104%;    
+    }
+}
+
+@media all and (max-width: 600px) {
+    .lead__title {
+        max-width: calc(100% - 32px);
+        font-size: 72px;
+        line-height: 104%;    
+    }
+}
+
+@media all and (max-width: 540px) {
+    .lead__title {
+        max-width: calc(100% - 32px);
         font-size: 48px;
         line-height: 110%;    
     }
@@ -18,7 +39,7 @@
 
 @media all and (max-width: 320px) {
     .lead__title {
-        max-width: 90%;
+        max-width: calc(100% - 32px);
         font-size: 40px;
         line-height: 110%;    
     }

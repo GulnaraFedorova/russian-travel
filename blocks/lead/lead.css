@@ -6,7 +6,8 @@
 
 @media all and (max-width: 1024px) {
     .lead {
-        max-width: 100%;
+        width: calc(100% - 96px);
+        margin: 48px auto 0;
     }
 }
 

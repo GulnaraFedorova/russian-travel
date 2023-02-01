@@ -10,7 +10,8 @@
 
 @media all and (max-width: 507px) {
     .intro__text {
-        width: 90%;
+        width: calc(100% - 32px);
+        padding-left: 16px;
     }
 }
 
