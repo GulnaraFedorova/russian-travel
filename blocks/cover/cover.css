@@ -1,41 +1,37 @@
 .cover {
-    box-sizing: border-box;
-    background-image: url("/images/__background.jpg");
-    max-width: 1184px;
-    max-height: 740px;
-    background-size: cover;
+    background-image:url(../../images/__background.jpg);
+    background-size: 1184px, 740px, cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     margin: 0 0 92px;
-    padding: 0;
     width: 100%;
     position: relative;
 }
 
-@media all and (max-width: 768px) {
-    .cover {
-        margin: 0 0 88px;
+    @media all and (max-width: 768px) {
+        .cover {
+            margin: 0 0 88px;
+        }
     }
-}
 
-@media all and (max-width: 507px) {
-    .cover {
-        margin: 0 0 64px;
+    @media all and (max-width: 507px) {
+        .cover {
+            margin: 0 0 64px;
+        }
     }
-}
 
-.cover::before {
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(42, 44, 47, 0.3);
-}
+    .cover::before {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(42, 44, 47, 0.3);
+    }
 
-.cover:hover::before {
-    background-color: rgba(42, 44, 47, 0.8);
-}
+    .cover:hover::before {
+        background-color: rgba(42, 44, 47, 0.8);
+    }
