@@ -2,10 +2,10 @@
 
 _Описание проекта:_  
 Здесь проект о путешествии по России со всей необходимой информацией.
-  
+
+Файловая структура проекта собрана по правилам [Nested БЭМ](https://ru.bem.info/methodology/filestructure/#nested "Правила!") 
 Создан типовой одностраничный сайт с применением адаптивной вёрстки по макету.
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)   
-Файловая структура проекта собрана по правилам [Nested БЭМ](https://ru.bem.info/methodology/filestructure/#nested "Правила!")
 
 _Планы по доработке проекта:_
 * Отработать все замечания.
