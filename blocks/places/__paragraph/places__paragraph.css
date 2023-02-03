@@ -6,8 +6,8 @@
     gap: 26px;
 }
 
-@media all and (max-width: 507px) {
+@media all and (max-width: 520px) {
     .places__paragraph {
-        width: 90%;
+        margin: 0 16px;
     }
 }

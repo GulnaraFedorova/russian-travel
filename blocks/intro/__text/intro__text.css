@@ -7,6 +7,11 @@
     line-height: 163%;
 }
 
+@media all and (max-width: 768px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
 
 @media all and (max-width: 507px) {
     .intro__text {

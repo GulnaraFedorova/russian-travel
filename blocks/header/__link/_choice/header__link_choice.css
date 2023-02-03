@@ -1,7 +1,3 @@
 .header__link_choice {
-    text-decoration: none;
-}
-
-.header__link_choice:active {
     text-decoration: underline;
 }

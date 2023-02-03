@@ -8,6 +8,9 @@
     line-height: 117%;
 }
 
+.header__link:hover {
+    opacity: 0.8;
+}
 
 @media all and (max-width: 507px) {
     .header__link {

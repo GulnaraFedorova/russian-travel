@@ -4,3 +4,10 @@
     align-self: flex-end;
     gap: 12px;
 }
+
+
+@media all and (max-width: 520px) {
+    .places__website {
+        margin: 0 16px;
+    }
+}

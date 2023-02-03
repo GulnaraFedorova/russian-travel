@@ -7,23 +7,16 @@
     line-height: 104%;
 }
 
-@media all and (max-width: 768px) {
-    .lead__title {
-        max-width: calc(100% - 48px);
-    }
-}
 
 @media all and (max-width: 690px) {
     .lead__title {
-        max-width: calc(100% - 32px);
-        font-size: 72px;
-        line-height: 104%;
+        font-size: 70px;
     }
 }
 
 @media all and (max-width: 540px) {
     .lead__title {
-        font-size: 48px;
+        font-size: 44px;
         line-height: 110%;
     }
 }

@@ -20,8 +20,8 @@
 
 @media all and (max-width: 507px) {
     .places {
-        width: calc(100% - 32px);
-        padding: 0 16px;
+        width: 100%;
+        padding: 0;
         margin: 64px 0;
     }
 }
