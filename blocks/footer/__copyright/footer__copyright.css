@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 507px) {
-    .footer__copyright{
+    .footer__copyright {
         line-height: 100%;
     }
 }

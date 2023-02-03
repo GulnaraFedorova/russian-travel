@@ -6,8 +6,12 @@
     line-height: 112%;
 }
 
+.footer__link:hover {
+    opacity: 0.8;
+}
+
 @media all and (max-width: 507px) {
-    .footer__link{
+    .footer__link {
         font-size: 24px;
         line-height: 100%;
     }

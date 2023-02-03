@@ -1,35 +1,39 @@
 .cover__opacity {
     display: flex;
+    background-color: rgba(42, 44, 47, 0.3);
     flex-direction: column;
-    position: absolute;
     justify-content: center;
-    background-color: rgba(42,44,47, 0.3);
-    width: 100%;
-    height: 100%;
+    align-content: center;
+    max-width: 1184px;
+    min-height: 740px;
     text-decoration: none;
     color: #fff;
     gap: 32px;
+    position: relative;
 }
 
 @media all and (max-width: 1024px) {
-    .cover__opacity{
-        width: 100%;    
+    .cover__opacity {
+        width: 100%;
+        min-height: 640px;
     }
 }
 
 @media all and (max-width: 768px) {
-    .cover__opacity{
-        width: 100%;
+    .cover__opacity {
+        min-height: 480px;
     }
 }
 
 @media all and (max-width: 507px) {
-    .cover__opacity{
-        width: 100%;
-        gap: 16px;  
+    .cover__opacity {
+        min-height: 300px;
+        gap: 16px;
     }
 }
 
-.cover__opacity:hover {
-    background-color: rgba(42,44,47, 0.8);
+@media all and (max-width: 320px) {
+    .cover__opacity {
+        min-height: 200px;
+    }
 }

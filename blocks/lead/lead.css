@@ -1,4 +1,6 @@
 .lead {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin: 56px auto 0;
     justify-content: center;
@@ -12,12 +14,6 @@
 }
 
 @media all and (max-width: 768px) {
-    .lead {
-        width: 100%;
-    }
-}
-
-@media all and (max-width: 507px) {
     .lead {
         width: 100%;
     }

@@ -2,40 +2,28 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin: 0 0 24px;
+    margin: 0;
 }
 
 @media all and (max-width: 1024px) {
-    .footer{
+    .footer {
         width: calc(100% - 96px);
         margin: 0 48px 24px;
     }
 }
 
 @media all and (max-width: 768px) {
-    .footer{
+    .footer {
         width: calc(100% - 48px);
         margin: 0 24px 24px;
     }
 }
 
-@media all and (max-width: 715px) {
-    .footer{
-        width: calc(100% - 24px);
-        flex-direction: column;
-        gap: 48px;
-        margin: 0 16px 24px;
-
-    }
-}
-
-
-@media all and (max-width: 320px) {
-    .footer{
+@media all and (max-width: 690px) {
+    .footer {
         width: calc(100% - 24px);
         flex-direction: column;
         gap: 48px;
         margin: 0 16px 24px;
     }
 }
-

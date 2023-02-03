@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 714px) {
-    .cover__title{
+    .cover__title {
         width: calc(100% - 32px);
         font-size: 64px;
         line-height: 109%;
@@ -16,9 +16,7 @@
 }
 
 @media all and (max-width: 470px) {
-    .cover__title{
-        width: calc(100% - 32px);
+    .cover__title {
         font-size: 32px;
-        line-height: 109%;
     }
 }

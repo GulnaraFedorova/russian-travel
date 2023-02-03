@@ -1,7 +1,7 @@
-.logo{
+.logo {
     width: 176px;
     height: 52px;
-} 
+}
 
 @media all and (max-width: 507px) {
     .logo {

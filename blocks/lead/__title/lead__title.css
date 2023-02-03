@@ -1,7 +1,7 @@
 .lead__title {
     margin: 0 auto;
     text-align: center;
-    width: 720px;
+    max-width: 720px;
     font-weight: 900;
     font-size: 96px;
     line-height: 104%;
@@ -13,34 +13,23 @@
     }
 }
 
-@media all and (max-width: 714px) {
-    .lead__title {
-        max-width: calc(100% - 32px);
-        font-size: 78px;
-        line-height: 104%;    
-    }
-}
-
-@media all and (max-width: 600px) {
+@media all and (max-width: 690px) {
     .lead__title {
         max-width: calc(100% - 32px);
         font-size: 72px;
-        line-height: 104%;    
+        line-height: 104%;
     }
 }
 
 @media all and (max-width: 540px) {
     .lead__title {
-        max-width: calc(100% - 32px);
         font-size: 48px;
-        line-height: 110%;    
+        line-height: 110%;
     }
 }
 
 @media all and (max-width: 320px) {
     .lead__title {
-        max-width: calc(100% - 32px);
         font-size: 40px;
-        line-height: 110%;    
     }
 }
