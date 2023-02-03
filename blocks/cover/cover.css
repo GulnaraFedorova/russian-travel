@@ -1,6 +1,6 @@
 .cover {
     box-sizing: border-box;
-    background-image: url(/images/__background.jpg);
+    background-image: url("/images/__background.jpg");
     max-width: 1184px;
     max-height: 740px;
     background-size: cover;
