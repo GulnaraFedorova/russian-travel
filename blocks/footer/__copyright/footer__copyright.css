@@ -3,6 +3,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
+    text-align: right;
+}
+
+@media (max-width: 690px) {
+    .footer__copyright {
+        text-align: left;
+    }
 }
 
 @media (max-width: 507px) {

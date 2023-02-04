@@ -8,7 +8,7 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 800px) {
     .places__image {
         max-width: 340px;
     }
