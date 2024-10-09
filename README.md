@@ -15,4 +15,4 @@
 Чистый код: Верстка выполнена по стандартам, обеспечивая чистый и поддерживаемый код.  
 
 ## Ссылка на проект
-Проект доступен по ссылке: [Russian Travel(https://gulnarafedorova.github.io/russian-travel/)
+Проект доступен по ссылке: [Russian Travel](https://gulnarafedorova.github.io/russian-travel/)
